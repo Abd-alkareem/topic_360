@@ -1,0 +1,396 @@
+/**/
+/* start landing */
+.landing-2 {
+    padding: 150px 20px 50px;
+    background-image: linear-gradient(90deg, #13547a 0%, #80d0c7 100%);
+}
+
+.landing-2 .container>div {
+    color: white;
+}
+
+.landing-2 .container>div>a {
+    color: var(--sec-color);
+    transition: var(--tr_3);
+}
+
+.landing-2 .container>div>a:hover {
+    color: white;
+}
+
+.landing-2 .container>h1 {
+    font-size: 50px;
+    color: white;
+}
+
+/* end landing */
+
+
+/* start trending */
+.tranding {
+    margin-top: 50px;
+    margin-top: 50px;
+    padding: 50px 20px;
+    background-color: rgb(19 84 122 / 15%);
+}
+
+.tranding .container .holder {
+    min-height: 400px;
+}
+
+.tranding .container .holder .slide {
+    margin: 40px 0 50px;
+    display: flex;
+}
+
+/* end trending */
+
+
+/* start popular  */
+
+
+.popular .container h1 {
+    margin: 100px auto 40px;
+    text-align: center;
+}
+
+.popular .container .holder {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex-direction: column;
+}
+
+.popular .container .holder .card2 {
+    box-shadow: 0 0 30px 1px #3333332b;
+    display: flex;
+    gap: 20px;
+    padding: 50px 60px 50px 0px;
+    border-radius: 20px;
+    background-color: white;
+
+
+}
+
+.popular .container .holder .card2 .image {
+    width: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.popular .container .holder .card2:nth-child(1) .image {
+    background-image: url(../images/topics/undraw_Remote_design_team_re_urdx.png);
+}
+
+.popular .container .holder .card2:nth-child(2) .image {
+    background-image: url(../images/topics/undraw_online_ad_re_ol62.png);
+}
+
+.popular .container .holder .card2:nth-child(3) .image {
+    background-image: url(../images/topics/undraw_Podcast_audience_re_4i5q.png);
+
+}
+
+
+.popular .container .holder .card2>div:last-child>div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+
+}
+
+.popular .container .holder .card2>div:last-child>div>span {
+    position: absolute;
+    right: -35px;
+    font-size: 14px;
+}
+
+
+.popular .container .holder .card2:nth-child(2)>div:last-child>div>span {
+    background-color: #f50057;
+}
+
+.popular .container .holder .card2:nth-child(3)>div:last-child>div>span {
+    background-color: #f9a826;
+}
+
+.popular .container .holder .card2>div:last-child>div>h2 {
+    margin: 0;
+}
+
+.popular .container .holder .card2>div:last-child>p {
+    max-width: 400px;
+    color: darkgrey;
+    line-height: 1.6;
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.popular .container .holder .card2>div:last-child>button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+
+}
+
+/* end popular  */
+
+
+
+/* contact form */
+.contact-f {
+    padding-bottom: 100px;
+    padding-top: 100px;
+    background-color: rgb(19 84 122 / 15%);
+}
+
+.contact-f .container h1 {
+    margin-bottom: 50px;
+}
+
+.contact-f .container .holder {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+.contact-f .container .holder .image {
+    width: 45%;
+    max-width: 450px;
+}
+
+.contact-f .container .holder .image .photo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d4d2d2;
+    border-radius: 20px;
+    height: 250px;
+}
+
+.contact-f .container .holder .image .photo i {
+    font-size: 26px;
+    color: darkgray;
+}
+
+
+.contact-f .container .holder .image p {
+    color: #747373;
+    font-size: 18px;
+    line-height: 1.3;
+}
+
+.contact-f .container .holder form {
+    width: 47%;
+}
+
+.contact-f .container .holder form input {
+    min-height: 60px;
+    border: none;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    padding: 0 25px;
+    transition: 0.2s;
+}
+
+.contact-f .container .holder form input::after {
+    content: "";
+}
+
+.contact-f .container .holder form input:nth-child(1) {
+    width: 47%;
+    margin-right: 4%;
+    position: relative;
+}
+
+.contact-f .container .holder form textarea::placeholder,
+.contact-f .container .holder form input::placeholder {
+    font-size: 18px;
+    color: black;
+    transition: var(--tr_3);
+}
+
+.contact-f .container .holder form input:focus::placeholder,
+.contact-f .container .holder form textarea:focus::placeholder {
+    font-size: 15px;
+    position: absolute;
+    top: 5px;
+    left: 25px;
+    color: darkgray;
+    display: block;
+}
+
+.contact-f .container .holder form input:nth-child(2) {
+    width: 47%;
+}
+
+.contact-f .container .holder form input:nth-child(3) {
+    width: 100%;
+}
+
+.contact-f .container .holder form input:nth-child(5) {
+    width: 130px;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+    position: relative;
+    right: 0;
+    margin-left: calc(100% - 130px);
+    padding: 0;
+    cursor: pointer;
+}
+
+.contact-f .container .holder form textarea {
+    width: 100%;
+    border: none;
+    resize: none;
+    border-radius: 25px;
+    height: 150px;
+    transition: 0.2s;
+    padding: 25px 25px;
+}
+
+.contact-f .container .holder form textarea:focus,
+.contact-f .container .holder form input:focus {
+    outline: 3px solid rgb(28 146 215 / 72%);
+
+
+}
+
+
+
+
+/* contact form */
+
+/* start responseve sitting */
+
+/* container */
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+/* medium */
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+/* large */
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+/* container */
+
+/* medium */
+@media (max-width: 991px) {
+    .popular .container .holder {
+        margin: 0 20px;
+    }
+
+    .popular .container .holder .card2 {
+        flex-direction: column !important;
+        align-items: center !important;
+        padding: 50px 30px;
+
+    }
+
+    .popular .container .holder .card2 .image {
+        width: 600px;
+        height: 200px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .popular .container .holder .card2>div:nth-child(2) {
+        flex: 1;
+    }
+
+    .popular .container .holder .card2>div:last-child>div>span {
+        right: -15px;
+
+    }
+
+    .tranding .container .holder .slide {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tranding .container .holder .slide .card {
+        width: 600px;
+    }
+
+    .tranding .container .holder .slide .card .image {
+        margin: auto;
+    }
+
+    /*  */
+
+    .contact-f .container .holder {
+        flex-wrap: wrap;
+        margin: 0 auto;
+        width: 600px;
+    }
+
+    .contact-f .container h1 {
+        margin: 0 auto 50px;
+        width: 600px;
+    }
+
+    .contact-f .container .holder form {
+        width: 100%;
+    }
+
+    .contact-f .container .holder .image {
+        width: 100%;
+        max-width: initial !important;
+    }
+}
+
+
+/*  */
+
+
+@media (max-width: 768px) {
+    .popular .container .holder .card2 .image {
+        width: 100%;
+        height: 200px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .tranding .container .holder .slide .card {
+        width: 100%;
+    }
+
+    /*  */
+
+    .contact-f .container .holder {
+        width: 100%;
+    }
+
+    .contact-f .container h1 {
+        width: 100%;
+    }
+
+    .contact-f .container .holder form input:nth-child(1),
+    .contact-f .container .holder form input:nth-child(2) {
+        width: 100%;
+    }
+}
+
+/* end reponesv sitting */

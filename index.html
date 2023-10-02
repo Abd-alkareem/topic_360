@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <title>topic_590</title>
+    <script>
+      //format the links auto change
+      window.addEventListener("scroll", function () {
+        let sc = this.window.scrollY;
+        if (sc > 990 && sc < 1545) {
+          document.querySelectorAll("header a").forEach(function (e) {
+            e.classList.remove("active");
+          });
+          document.querySelectorAll("header a")[1].classList.add("active");
+        } else if (sc > 1545 && sc < 2590) {
+          document.querySelectorAll("header a").forEach(function (e) {
+            e.classList.remove("active");
+          });
+          document.querySelectorAll("header a")[2].classList.add("active");
+        } else if (sc > 2590 && sc < 3090) {
+          document.querySelectorAll("header a").forEach(function (e) {
+            e.classList.remove("active");
+          });
+          document.querySelectorAll("header a")[3].classList.add("active");
+        } else if (sc > 3090 && sc < 3500) {
+          document.querySelectorAll("header a").forEach(function (e) {
+            e.classList.remove("active");
+          });
+          document.querySelectorAll("header a")[4].classList.add("active");
+        } else if (sc > 3500) {
+          document.querySelectorAll("header a").forEach(function (e) {
+            e.classList.remove("active");
+          });
+        } else if (sc >= 0 && sc < 990) {
+          document.querySelectorAll("header a").forEach(function (e) {
+            e.classList.remove("active");
+          });
+          document.querySelectorAll("header a")[0].classList.add("active");
+        }
+      });
+    </script>
+  </head>
+  <body>
+    <!-- start header -->
+    <header>
+      <div class="container">
+        <div class="logo">
+          <div class="icon">
+            <span></span>
+            <span></span>
+          </div>
+          <span class="name">Topic</span>
+        </div>
+        <div class="links">
+          <a href="#landing" class="active">HOME</a>
+          <a href="#browse">BROWES TOPICS</a>
+          <a href="#how">HOW IT WORKS</a>
+          <a href="#fqs">FAQS</a>
+          <a href="#contact">CONCAT</a>
+          <span
+            >PAGES <i class="fas fa-angle-down"></i>
+            <div>
+              <a href="listing.html">Topical listing</a>
+              <a href="contact.html">Contact Form</a>
+            </div>
+          </span>
+        </div>
+        <i class="fas fa-user-circle"></i>
+        <div class="minu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </header>
+    <!-- end header -->
+
+    <!-- start landing -->
+    <div class="landing" id="landing">
+      <div class="container">
+        <div class="main-t">Discover. Learn. Enjoy</div>
+        <p>platform for cratives around the world</p>
+        <div class="search">
+          <i class="fas fa-search"></i>
+          <input
+            type="text"
+            placeholder="Design, Code, Marketing, Finance ..."
+          />
+          <button class="do-search h-b">Search</button>
+        </div>
+        <div class="cards">
+          <div class="web">
+            <div>
+              <h2>Web Design</h2>
+              <span>14</span>
+            </div>
+            <p>
+              When you search for free CSS templates, you will notice that
+              TemplateMo is one of the best websites.
+            </p>
+            <img
+              src="./images/topics/undraw_Remote_design_team_re_urdx.png"
+              alt=""
+            />
+          </div>
+          <div class="finance">
+            <div>
+              <h2>Finance</h2>
+              <span>25</span>
+            </div>
+            <p>
+              When you search for free CSS templates, you will notice that
+              TemplateMo is one of the best websites. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Dolor, quos?
+            </p>
+            <button class="h-b">Learn More</button>
+            <div class="lin">
+              <span>Share: </span>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-linkedin-in"></i>
+              <i class="fas fa-bookmark"></i>
+            </div>
+            <div class="lay"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end landing -->
+
+    <!-- start browse -->
+    <div class="browse" id="browse">
+      <div class="container">
+        <h1>Browse Topics</h1>
+        <div class="sections">
+          <span class="active">Design</span>
+          <span>Marketing</span>
+          <span>Finance</span>
+          <span>Music</span>
+          <span>Education</span>
+        </div>
+        <div class="show-sec">
+          <div class="slide sl-1 c3 active">
+            <div class="card">
+              <div>
+                <h2>Web Design</h2>
+                <span class="sp-n">14</span>
+              </div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+              <div class="image"></div>
+            </div>
+            <div class="card">
+              <div>
+                <h2>Graphic</h2>
+                <span class="sp-n">75</span>
+              </div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+              <div class="image"></div>
+            </div>
+            <div class="card">
+              <div>
+                <h2>Logo Design</h2>
+                <span class="sp-n">100</span>
+              </div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+              <div class="image"></div>
+            </div>
+          </div>
+          <div class="slide sl-2 c3">
+            <div class="card">
+              <div>
+                <h2>Advertising</h2>
+                <span class="sp-n">30</span>
+              </div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+              <div class="image"></div>
+            </div>
+            <div class="card">
+              <div>
+                <h2>Vedio Contact</h2>
+                <span class="sp-n">65</span>
+              </div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+              <div class="image"></div>
+            </div>
+            <div class="card">
+              <div>
+                <h2>Viral Tweet</h2>
+                <span class="sp-n">50</span>
+              </div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+              <div class="image"></div>
+            </div>
+          </div>
+          <div class="slide sl-3 c2">
+            <div class="card">
+              <div>
+                <h2>Investemnt</h2>
+                <span class="sp-n">30</span>
+              </div>
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <div class="image"></div>
+            </div>
+            <div class="card">
+              <div>
+                <h2>Finenac</h2>
+                <span class="sp-n">30</span>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
+                eum in expedita consequatur aperiam harum?
+              </p>
+              <button class="h-b">Learn More</button>
+              <div class="lin">
+                <span>Share: </span>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-linkedin-in"></i>
+                <i class="fas fa-boockmark"></i>
+              </div>
+            </div>
+          </div>
+          <div class="slide sl-4 c3">
+            <div class="card">
+              <div>
+                <h2>Composing Song</h2>
+                <span class="sp-n">45</span>
+              </div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+              <div class="image"></div>
+            </div>
+            <div class="card">
+              <div>
+                <h2>Online Music</h2>
+                <span class="sp-n">45</span>
+              </div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+              <div class="image"></div>
+            </div>
+            <div class="card">
+              <div>
+                <h2>Podcast</h2>
+                <span class="sp-n">20</span>
+              </div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+              <div class="image"></div>
+            </div>
+          </div>
+          <div class="slide sl-4 c2">
+            <div class="card">
+              <div>
+                <h2>Graduation</h2>
+                <span class="sp-n">80</span>
+              </div>
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <div class="image"></div>
+            </div>
+            <div class="card">
+              <div>
+                <h2>Educatore</h2>
+                <span class="sp-n">75</span>
+              </div>
+              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <div class="image"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end browse -->
+
+    <!-- start how it work -->
+    <div class="how" id="how">
+      <div class="container">
+        <h1>How dose it work ?</h1>
+        <div class="holder">
+          <div>
+            <i class="fas fa-search"><span></span></i>
+            <div>
+              <h2>Search your favorite topic</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus,
+                vel quod sit corrupti quam, earum tenetur accusantium modi et
+                obcaecati nesciunt mollitia ab delectus! Optio dolores id illum?
+                Rem, suscipit?
+              </p>
+              <span></span>
+            </div>
+          </div>
+          <div>
+            <i class="fas fa-bookmark"><span></span></i>
+            <div>
+              <h2>Bockmark & Keep it for yourself</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus,
+                vel quod sit corrupti quam, earum tenetur accusantium modi et
+                obcaecati nesciunt mollitia ab delectus! Optio dolores id illum?
+                Rem, suscipit?
+              </p>
+              <span></span>
+            </div>
+          </div>
+          <div>
+            <i class="fas fa-book-open"></i>
+            <div>
+              <h2>Read & Enjoy</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus,
+                vel quod sit corrupti quam, earum tenetur accusantium modi et
+                obcaecati nesciunt mollitia ab delectus! Optio dolores id illum?
+                Rem, suscipit?
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="more">
+          Want to learn more? <a href="#">Chake out youtube</a>
+        </div>
+      </div>
+    </div>
+    <!-- end how it work -->
+
+    <!-- start qustons part -->
+    <div class="question" id="fqs">
+      <div class="container">
+        <h1>Frequently Asked Questions</h1>
+        <div class="holder">
+          <div class="image"></div>
+          <div class="questions">
+            <div class="qu active">
+              <div>
+                <span>What Is Topic Listing?</span>
+                <i class="fas fa-angle-up"></i>
+              </div>
+              <p>
+                Topic Listing is free Bootstrap 5 CSS template.
+                <span>
+                  You are not allowed to redistribute this template on any other
+                  template</span
+                >
+                collection website without our permission. Please contact
+                TemplateMo for more detail. Thank you.
+              </p>
+            </div>
+            <div class="qu">
+              <div>
+                <span>How To Find a Topic?</span>
+                <i class="fas fa-angle-up"></i>
+              </div>
+              <p>
+                You can search on Google with <span>keywords</span> such as
+                templatemo portfolio, templatemo one-page layouts, photography,
+                digital marketing, etc.
+              </p>
+            </div>
+            <div class="qu">
+              <div>
+                <span>Dose It need To Paid?</span>
+                <i class="fas fa-angle-up"></i>
+              </div>
+              <p>
+                You can modify any of this with custom CSS or overriding our
+                default variables. It's also worth noting that just about any
+                HTML can go within the . <span>accordion-body</span>, though the
+                transition does limit overflow.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end qustons part -->
+
+    <!-- start contact part -->
+    <div class="contact" id="contact">
+      <div class="container">
+        <h1>Grt in touch</h1>
+        <div class="holder">
+          <div class="photo">
+            <i class="fas fa-kiwi-bird"></i>
+          </div>
+          <div class="h-o">
+            <h2>Head Office</h2>
+            <p>Bay St &, Larkin St, San Francisco, CA 94109, United States</p>
+            <span class="stike"></span>
+            <p>Phone <span>605-240-6975</span></p>
+            <p>Email <span>info@gmail.com</span></p>
+          </div>
+          <div class="h-o">
+            <h2>Head Office</h2>
+            <p>Burj Park, Downtown Dubai, United Arab Emirates</p>
+            <span class="stike"></span>
+            <p>Phone <span>605-240-6975</span></p>
+            <p>Email <span>info@gmail.com</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end contact part -->
+
+    <!-- start footer  -->
+    <footer>
+      <div class="container">
+        <div class="logo">
+          <div class="icon">
+            <span></span>
+            <span></span>
+          </div>
+          <span class="name">Topic</span>
+        </div>
+        <div>
+          <h2>Resource</h2>
+          <a href="#landing" class="active">HOME</a>
+          <a href="#how">HOW IT WORKS</a>
+          <a href="#fqs">FAQS</a>
+          <a href="#contact">CONCAT</a>
+        </div>
+        <div>
+          <h2>Information</h2>
+          <a href="">305-240-9671</a>
+          <a href="">info@gmail.com</a>
+        </div>
+        <div>
+          <button class="h-b">
+            <span>Englich</span><i class="fas fa-angle-down"></i>
+          </button>
+          <p>Copyright © 2048 Topic Listing Center. All rights reserved.</p>
+          <span>Design: <span>TemplateMO</span></span>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer  -->
+
+    <!--  -->
+    <script src="main.js"></script>
+  </body>
+</html>
